@@ -1,6 +1,3 @@
-//#ifndef HCTREE_H
-//#define HCTREE_H
-
 #include <queue>
 #include <vector>
 #include <fstream>
@@ -9,9 +6,7 @@
 using namespace std;
 
 /** A 'function class' for use as the Compare class in a
- *  priority_queue<HCNode*>.
- *  For this to work, operator< must be defined to
- *  do the right thing on HCNodes.
+ *  priority_queue<HuffmanNode*>.
  */
 class HuffmanNodeComparator {
 public:
@@ -44,5 +39,3 @@ public:
 
     void deleteAll(HuffmanNode* n);
 };
-
-//#endif // HCTREE_H

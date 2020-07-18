@@ -64,7 +64,6 @@ int HuffmanTree::encode(unsigned char symbol, ofstream& out, int& numberOfBits, 
             buf = 0;
         }
     }
-
     return count;
 }
 

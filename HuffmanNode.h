@@ -1,6 +1,3 @@
-//#ifndef HCNODE_H
-//#define HCNODE_H
-
 #include <iostream>
 
 using namespace std;
@@ -23,5 +20,3 @@ public:
 
     bool operator<(const HuffmanNode& other) const;
 };
-
-//#endif
